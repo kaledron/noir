@@ -12,8 +12,9 @@
       <div class="container">
         <!-- <video id="video" width="100vw" height="100vh" onclick="play();"> -->
         <!-- <video id="video" autoplay> -->
-        <video id="video">
+        <video id="video" muted>
             <source src="img/noir.mp4" type="video/mp4" />
+            <source src="img/noir.webm" type="video/webm" />
         </video>
         <div class="overlay">
             <p>Content above your video</p>
@@ -21,7 +22,21 @@
         </div>
       </div>
     </div>
-    <div class="main-m"></div>
+    <div class="main-m">
+        <div class="container">
+            <!-- <video id="video" width="100vw" height="100vh" onclick="play();"> -->
+            <!-- <video id="video" autoplay> -->
+            <video id="video-m" muted autobuffer>
+                <source src="img/noir.mp4" type="video/mp4" />
+                <source src="img/noir.webm" type="video/webm" />
+            </video>
+            <div class="overlay">
+                <p>Content above your video</p>
+                <p id="2">test</p>
+            </div>
+          </div>
+    
+    </div>
         <!-- <div class="main">
       <picture>
         <source media="(min-width: 1450px)" srcset="docs/Noir_Home.png">
