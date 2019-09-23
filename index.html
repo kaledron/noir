@@ -12,13 +12,43 @@
       <div class="container">
         <!-- <video id="video" width="100vw" height="100vh" onclick="play();"> -->
         <!-- <video id="video" autoplay> -->
-        <video id="video" muted>
+        <video id="video" muted autoplay playsinline loop>
             <source src="img/noir.mp4" type="video/mp4" />
             <source src="img/noir.webm" type="video/webm" />
         </video>
         <div class="overlay">
-            <p>Content above your video</p>
-            
+          <div class="logo">
+            <picture>
+              <source media="(min-width: 1450px)" srcset="img/home-logo.png">
+              <source media="(min-width: 1024px)" srcset="img/home-logo.png">
+              <img src="img/home-logo.png" style="width: 13.6vw; height: 12.8vh;">
+            </picture>
+          </div>
+          <div class="menu">A B O U T</div>
+          <div class="main-title">
+            <span class="span1">A </span><span class="span2">new way to collaborate, earn & pay</span>
+          </div>
+          <div class="sub-title">
+            <span class="span1">A </span><span class="span2">home for digital nomads and remote work</span>
+          </div><br /><br />
+          <div class="invite"><button id="invite">G E T &nbsp;&nbsp;A N &nbsp;&nbsp;E A R L Y &nbsp;&nbsp;I N V I T E</button></div>
+          <div class="message-line">
+            <div class="part1">
+              <div class="img1"></div>
+              <div class="title1"></div>
+              <div class="message1"></div>
+            </div>
+            <div class="part2">
+              <div class="img2"></div>
+              <div class="title2"></div>
+              <div class="message2"></div>
+            </div>
+            <div class="part3">
+              <div class="img3"></div>
+              <div class="title3"></div>
+              <div class="message3"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -26,13 +56,12 @@
         <div class="container">
             <!-- <video id="video" width="100vw" height="100vh" onclick="play();"> -->
             <!-- <video id="video" autoplay> -->
-            <video id="video-m" muted autobuffer>
+            <video id="video-m" muted autoplay playsinline loop>
                 <source src="img/noir.mp4" type="video/mp4" />
                 <source src="img/noir.webm" type="video/webm" />
+                <source src="img/noir.ogg" type="video/ogg" />
             </video>
             <div class="overlay">
-                <p>Content above your video</p>
-                <p id="2">test</p>
             </div>
           </div>
     
