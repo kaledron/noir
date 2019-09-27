@@ -28,43 +28,43 @@ html {
     font-family: 'Poppins SemiBold', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 html::-webkit-scrollbar { 
     width: 0;
     height: 0;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    padding-left: 1.6vw;
+::placeholder { 
     color: #B9B9B9;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
 }
   
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    padding-left: 1.6vw;
+:-ms-input-placeholder { 
     color: #B9B9B9;
 }
   
-::-ms-input-placeholder { /* Microsoft Edge */
-    padding-left: 1.6vw;
+::-ms-input-placeholder { 
     color: #B9B9B9;
 }
 
 
-/* header {
+header {
     position: fixed;
     top: 0;
     left: 0;
     width: 100vw;
-} */
+}
 
-/* video::-webkit-media-controls-start-playback-button {
+video::-webkit-media-controls-start-playback-button {
     display: none;
-} */
+}
 
 .main {
     width: 100vw;
-    /* height: 100vh; */
-    /* height: 100%; */
 }
 
 .container { position:relative; }
@@ -72,12 +72,7 @@ html::-webkit-scrollbar {
     position:relative;
     z-index:0;
     width: 100vw;
-    /* height: 100vh;  */
  }
-
- /* .signs {
-     font-family: 'Times New Roman', Times, serif;
- } */
 
  .overlay {
     position:absolute;
@@ -103,8 +98,8 @@ html::-webkit-scrollbar {
     float: left;
     padding-top: 10.7vh;
     padding-left: 65.36vw;
-    color: white;
-    /* color: #D0D1D2; */
+    /* color: white; */
+    color: #C9C9CB;
     font-size: 16px;
     font-family: 'Poppins Bold';
     letter-spacing: 0.2px;
@@ -231,7 +226,7 @@ html::-webkit-scrollbar {
 }
 
 .overlay .invite-form form input {
-    width: 18.78vw;
+    width: 17.18vw;
     height: 6.7vh;
     background-color: #E8E8E8;
     border-radius: 5px;
@@ -242,10 +237,11 @@ html::-webkit-scrollbar {
     font-size: 18px;
     letter-spacing: 0.4px;
     text-shadow: 0.4px 0.4px #B9B9B9;
+    padding-left: 1.6vw;
 }
 
 .overlay .invite-form form textarea {
-    width: 38.9vw;
+    width: 37.3vw;
     height: 11.3vh;
     margin-bottom: 1.06vw;
     background-color: #E8E8E8;
@@ -256,6 +252,7 @@ html::-webkit-scrollbar {
     letter-spacing: 0.4px;
     text-shadow: 0.4px 0.4px #B9B9B9;
     padding-top: 2.3vh;
+    padding-left: 1.6vw;
 }
 
 .overlay .invite-form form button {
@@ -291,8 +288,60 @@ html::-webkit-scrollbar {
     position: absolute;
 }
 
-.noir-slides {
-    width: 100vw;
+.home-link-m {
+    margin-top: 11.5vh;
+    margin-left: 87.6vw;
+    width: 3vw;
+    height: 1.3vh;
+    position: absolute;
+}
+
+.home-link-a {
+    margin-top: 999.2vh;
+    margin-left: 46.4vw;
+    width: 3.2vw;
+    height: 2vh;
+    position: absolute;
+}
+
+.about-link-a {
+    margin-top: 999.2vh;
+    margin-left: 50.7vw;
+    width: 3vw;
+    height: 2vh;
+    position: absolute;
+}
+
+.hives-a ,
+.grow-a ,
+.currency-a ,
+.ventures-a {
+    height: 2vh;
+    position: absolute;
+}
+
+.hives-a {
+    margin-top: 115.4vh;
+    margin-left: 10.4vw;
+    width: 8vw;
+}
+
+.grow-a {
+    margin-top: 128.8vh;
+    margin-left: 10.4vw;
+    width: 8vw;
+}
+
+.currency-a {
+    margin-top: 142.2vh;
+    margin-left: 10.4vw;
+    width: 18.6vw;
+}
+
+.ventures-a {
+    margin-top: 162.6vh;
+    margin-left: 10.4vw;
+    width: 14.6vw;
 }
 
 @media only screen and (width: 1366px) {
