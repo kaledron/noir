@@ -1,73 +1,5 @@
 @media only screen and (width: 1366px) {
-    .overlay .logo {
-        padding-top: 7.9vh;
-    }
-
-    .overlay .header .logo picture img {
-        height: 11.5vh;
-    }
-    
-    .overlay .main-title {
-        padding-top: 10.2vh;
-    }
-
-    .overlay .menu {
-        padding-top: 9.7vh;
-    } 
-
-    .overlay .sub-title {
-        padding-top: 1.4vh;
-        font-size: 1.07vw;
-        font-weight: 400;
-        letter-spacing: 0.024vw;
-    }
-
-    .overlay .invite {
-        padding-top: 9.2vh;
-    }
-
-    .overlay .invite button {
-        border-radius: 0.5vw;
-        height: 6.27vh;
-        padding-top: 0.4vh;
-        font-family: 'Poppins SemiBold', sans-serif;
-        font-size: 0.82vw;
-        letter-spacing: normal;
-        text-shadow: 0.2vw;
-    }
-
-    .overlay .shapes {
-        padding-top: 20.6vh;
-    }
-
-    .overlay .shapes .title {
-        padding-left: 1.38vw;
-        /* margin-top: -0.3vh; */
-        font-size: 1.021vw;
-    }
-
-    .overlay .shapes .message {
-        padding-left: 1.38vw;
-        margin-top: -2vh;
-        font-size: 1.1vw;
-    }
-
-    .overlay .invite-form {
-        margin-top: 67vh;
-    }
-
- 
-    .overlay .invite-form form button {
-        height: 6.94vh;
-        padding-top: 0.52vh;
-        border-radius: 0.25vw;
-        font-size: 0.84vw;
-        letter-spacing: 0.025vw;
-        text-shadow: 0.25vw;
-    }
-
-
-    .eco .hives-a {
+    /* .eco .hives-a {
         margin-top: 27vh;
     }
 
@@ -119,7 +51,7 @@
         width: 3.4vw;
         height: 2vh;
         position: absolute;
-    }
+    } */
 }
 
 @media only screen and (max-width: 1080px) {
