@@ -22,27 +22,22 @@ html {
     overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none; 
-    /* width: 100vw; */
     overflow-x: hidden !important; 
     -webkit-overflow-scrolling: touch;
     font-family: 'Poppins SemiBold', sans-serif;
 }
 
 body {
-    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100vw;
 }
 
 header {
-    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100vw;
 }
-
-
 
 body > footer {
     position: fixed;
@@ -60,7 +55,6 @@ html::-webkit-scrollbar {
 }
 
 picture {
-    /* vertical-align: top; */
     display: block;
     border: 0;
 }
@@ -97,23 +91,19 @@ video::-webkit-media-controls-start-playback-button {
 
 .overlay .logo {
     float: left;
-    /* padding-top: 8.9vh; */
     padding-top: 4.55vw;
     padding-left: 6.98vw;
 }
 
 .overlay .header .logo picture img {
     width: 13.5vw;
-    /* height: 12.5vh; */
     height: 6.6vw;
 }
 
 .overlay .menu {
     float: left;
-    /* padding-top: 10.7vh; */
     padding-top: 5.49vw;
     padding-left: 65.36vw;
-    /* color: white; */
     color: #C9C9CB;
     font-size: 0.85vw;
     font-family: 'Poppins Bold';
@@ -123,7 +113,6 @@ video::-webkit-media-controls-start-playback-button {
 .overlay .main-title {
     float: left;
     color: white;
-    /* padding-top: 11.2vh; */
     padding-top: 5.8vw;
     padding-left: 10.4vw;
     font-size: 3.442vw;
@@ -134,7 +123,6 @@ video::-webkit-media-controls-start-playback-button {
 .overlay .sub-title {
     float: left;
     color: white;
-    /* color: #BBBEBF; */
     padding-top: 1.82vh;
     padding-left: 10.4vw;
     font-family: 'Poppins Regular';
@@ -146,7 +134,6 @@ video::-webkit-media-controls-start-playback-button {
 
 .overlay .invite {
     float: left;
-    /* padding-top: 10vh; */
     padding-top: 5.3vw;
     padding-left: 10.4vw;
     width: 100vw;
@@ -155,12 +142,10 @@ video::-webkit-media-controls-start-playback-button {
 .overlay .invite button {
     border-radius: 0.5vw;
     width: 16.66vw;
-    /* height: 6.7vh; */
     height: 3.4vw;
     color: white;
     text-align: center;
     vertical-align: middle;
-    /* padding-top: 0.47vh; */
     padding-top: 0.1vw;
     border: 0;
     background-color: #3398DB;
@@ -187,7 +172,6 @@ video::-webkit-media-controls-start-playback-button {
 
 .overlay .shapes {
     float: left;
-    /* padding-top: 23.1vh; */
     padding-top: 11.36vw;
     padding-left: 10.4vw;
     width: 100vw;
@@ -196,7 +180,6 @@ video::-webkit-media-controls-start-playback-button {
 .overlay .shapes .title {
     float: left;
     padding-left: 1.4vw;
-    /* margin-top: -0.3vh; */
     width: 14vw;
     font-size: 0.99vw;
     color: white;
@@ -207,11 +190,9 @@ video::-webkit-media-controls-start-playback-button {
     float: left;
     padding-left: 1.4vw;
     padding-top: 0.8vw;
-    /* margin-top: -0.3vh; */
     font-size: 1.1vw;
     font-family: 'Poppins Regular', sans-serif;
     color: white;
-    /* color: #AAACAE; */
 }
 
 .middle-content {
@@ -237,9 +218,7 @@ video::-webkit-media-controls-start-playback-button {
 
 .invite-section {
     float: left;
-    /* width: 100vw; */
     width: 100%;
-    /* line-height: 0; */
     
     background-image: url("../img/noir-invite.png");
 
@@ -265,7 +244,6 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .invite-form form {
-    /* padding-top: 1.83vh; */
     padding-top: 1vw;
     padding-left: 10.4vw;
 }
@@ -285,13 +263,11 @@ video::-webkit-media-controls-start-playback-button {
 
 .invite-form form input {
     width: 17.18vw;
-    /* height: 6.7vh; */
     height: 3.5vw;
     background-color: #E8E8E8;
     border-radius: 0.25vw;
     border: 0;
     margin-right:  1.2vw;
-    /* margin-bottom: 2.76vh; */
     margin-bottom: 1.4vw;
     font-family: 'Poppins Regular', sans-serif;
     font-size: 0.94vw;
@@ -302,7 +278,6 @@ video::-webkit-media-controls-start-playback-button {
 
 .invite-form form textarea {
     width: 37.3vw;
-    /* height: 11.3vh; */
     height: 5.78vw;
     margin-bottom: 1.06vw;
     background-color: #E8E8E8;
@@ -312,20 +287,17 @@ video::-webkit-media-controls-start-playback-button {
     font-size: 1vw;
     letter-spacing: 0.025vw;
     text-shadow: 0.025vw 0.025vw #B9B9B9;
-    /* padding-top: 2.3vh; */
     padding-top: 1.29vw;
     padding-left: 1.6vw;
 }
 
 .invite-form form button {
     width: 38.9vw;
-    /* height: 6.94vh; */
     height: 3.48vw;
     background-color: #3398DB;
     color: white;
     text-align: center;
     vertical-align: middle;
-    /* padding-top: 0.52vh; */
     padding-top: 0.18vw;
     border-radius: 0.25vw;
     border: 0;
@@ -343,11 +315,9 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .about .home-link-m {
-    /* margin-top: 11.4vh; */
     margin-top: 5.75vw;
     margin-left: 87.3vw;
     width: 3.4vw;
-    /* height: 2vh; */
     height: 1vw;
     position: absolute;
 }
@@ -366,38 +336,49 @@ video::-webkit-media-controls-start-playback-button {
     line-height: 0;
 }
 
+.main {
+    background-repeat: no-repeat no-repeat;
+    background-size: cover;
+    position: relative;
+} 
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: -1;
+    background-size: auto;
+}
+
 .eco .hives-a ,
 .eco .grow-a ,
 .eco .currency-a ,
 .eco .ventures-a {
-    /* height: 6vh; */
     height: 2.8vw;
     position: absolute;
 }
 
 .eco .hives-a {
-    /* margin-top: 31.4vh; */
     margin-top: 15.6vw;
     margin-left: 10.4vw;
     width: 8vw;
 }
 
 .eco .grow-a {
-    /* margin-top: 45.7vh; */
     margin-top: 22.7vw;
     margin-left: 10.4vw;
     width: 8vw;
 }
 
 .eco .currency-a {
-    /* margin-top: 59.4vh; */
     margin-top: 29.4vw;
     margin-left: 10.4vw;
     width: 18.6vw;
 }
 
 .eco .ventures-a {
-    /* margin-top: 79vh; */
     margin-top: 40vw;
     margin-left: 10.4vw;
     width: 14.6vw;
@@ -409,7 +390,6 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .footer .home-link {
-    /* margin-top: 9.3vh; */
     margin-top: 4.8vw;
     margin-left: 46.4vw;
     width: 3.2vw;
@@ -418,7 +398,6 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .footer .about-link {
-    /* margin-top: 9.3vh; */
     margin-top: 4.8vw;
     margin-left: 50.65vw;
     width: 3vw;
@@ -427,7 +406,6 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .footer .home-link-a {
-    /* margin-top: 9vh; */
     margin-top: 4.7vw;
     margin-left: 46.4vw;
     width: 3.2vw;
@@ -436,7 +414,6 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 .footer .about-link-a {
-    /* margin-top: 9vh; */
     margin-top: 4.7vw;
     margin-left: 50.7vw;
     width: 3vw;

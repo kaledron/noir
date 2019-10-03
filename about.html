@@ -3,12 +3,16 @@
   <meta charset="utf-8">
   <title>Noir | About</title>
   <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="apple-mobile-web-app-title" content="Noir | About">
   <meta name="application-name" content="Noir | About">
   <link rel="stylesheet" href="css/main.css?2">
   <link rel="stylesheet" href="css/media.css?2">
+  <script src="js/particles-min.js"></script>
+
   <body>
-    <div class="main">
+    <div id="main-id" class="main">
+      <canvas style="width: 100vw; height: 300vh;"></canvas>
       <div id="about-id" class="about">
         <a href="index.html"><div class="home-link-m"></div></a>
         <picture>
@@ -17,15 +21,15 @@
           <img src="img/about.png" style="width: 100vw;">
         </picture>    
       </div>
-      <div class="eco">
+      <div id="eco-id" class="eco">
         <a href="#hives-id">   <div class="hives-a"></div>   </a>
         <a href="#grow-id">    <div class="grow-a"></div>    </a>
         <a href="#currency-id"><div class="currency-a"></div></a>
         <a href="#ventures-id"><div class="ventures-a"></div></a>
         <picture>
-          <source media="(min-width: 1450px)" srcset="img/eco.png">
-          <source media="(min-width: 1024px)" srcset="img/eco.png">
-          <img src="img/eco.png" style="width: 100vw;">
+          <source media="(min-width: 1450px)" srcset="img/eco-transparent.png">
+          <source media="(min-width: 1024px)" srcset="img/eco-transparent.png">
+          <img src="img/eco-transparent.png" style="width: 100vw;">
         </picture>    
       </div>
       <div id="hives-id" class="hives">
@@ -35,11 +39,11 @@
           <img src="img/hives.png" style="width: 100vw;">
         </picture>    
       </div>
-      <div id="ethos-id" class="ethos">
+      <div id="ethos-id" class="ethos"> 
         <picture>
-          <source media="(min-width: 1450px)" srcset="img/ethos.png">
-          <source media="(min-width: 1024px)" srcset="img/ethos.png">
-          <img src="img/ethos.png" style="width: 100vw;">
+          <source media="(min-width: 1450px)" srcset="img/ethos-transparent.png">
+          <source media="(min-width: 1024px)" srcset="img/ethos-transparent.png">
+          <img src="img/ethos-transparent.png" style="width: 100vw;">
         </picture>    
       </div>
       <div id="grow-id" class="grow">
@@ -85,3 +89,4 @@
   </body>
 </html>
 <script src="js/main.js"></script>
+<script src="js/particles_init.js"></script>
