@@ -65,6 +65,9 @@ video::-webkit-media-controls-start-playback-button {
 
 .main {
     width: 100vw;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
 }
 
 .container { position:relative; }
@@ -336,12 +339,6 @@ video::-webkit-media-controls-start-playback-button {
     line-height: 0;
 }
 
-.main {
-    background-repeat: no-repeat no-repeat;
-    background-size: cover;
-    position: relative;
-} 
-
 canvas {
     position: absolute;
     top: 0;
@@ -384,10 +381,10 @@ canvas {
     width: 14.6vw;
 }
 
-.footer {
+/* .footer {
     position:relative;
     bottom:0;
-}
+} */
 
 .footer .home-link {
     margin-top: 4.8vw;
