@@ -22,6 +22,26 @@
         letter-spacing: 0.012vw;
     }
 
+    .overlay .about-main-title {
+        padding-top: 3vw;
+        padding-left: 8.6vw;
+        font-size: 4vw; 
+    }
+    
+    .overlay .about-main-text {
+        padding-top: 1vw;
+        padding-left: 8.6vw;
+        font-size: 2.4vw; 
+        width: 50vw;
+    }
+    
+    .overlay .about-main-message {
+        padding-top: 6vw;
+        padding-left: 8.6vw;
+        font-size: 2.2vw; 
+        letter-spacing: 0.35vw;
+    }
+    
     .overlay .main-title {
         padding-top: 6.2vw;
         padding-left: 8vw;

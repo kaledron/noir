@@ -6,21 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="apple-mobile-web-app-title" content="Noir | About">
   <meta name="application-name" content="Noir | About">
-  <link rel="stylesheet" href="css/main.css?4">
-  <link rel="stylesheet" href="css/media.css?4">
+  <link rel="stylesheet" href="css/main.css?4.2">
+  <link rel="stylesheet" href="css/media.css?4.2">
   <script src="js/particles-min.js"></script>
 
   <body>
     <div id="main-id" class="main">
-      <!-- <canvas style="width: 100vw;"></canvas> -->
+
       <div id="about-id" class="about">
-        <a href="index.html"><div class="home-link-m"></div></a>
+        <!-- <a href="index.html"><div class="home-link-m"></div></a> -->
         <picture>
-          <source media="(min-width: 1450px)" srcset="img/about.png">
-          <source media="(min-width: 1024px)" srcset="img/about.png">
+          <source media="(min-width: 1100px)" srcset="img/about.png">
+          <source media="(min-width: 320px)" srcset="img/about-m.png">
           <img src="img/about.png" style="width: 100vw;">
         </picture>    
       </div>
+
+      <div class="overlay">
+        <div class="header">
+          <div class="logo">
+            <picture>
+              <img src="img/home-logo.png">
+            </picture>
+          </div>
+          <div class="menu"><a href="index.html">H O M E</a></div>
+        </div>
+        <div class="about-main-title">About Home Noir</div>
+        <div class="about-main-text">
+          We are a growing team of engineers, 
+          creators, economists, researchers,  
+          idealists and activists. We started 
+          Home Noir to solve fundamental      
+          limitations in how people           
+          collaborate, earn and spend.
+        </div>
+        <div class="about-main-message">DO, WHAT YOU WANT, WHEN YOU WANT, WHERE YOU WANT</div>
+      </div>
+      
       <div id="eco-id" class="eco">
         <a href="#hives-id">   <div class="hives-a"></div>   </a>
         <a href="#grow-id">    <div class="grow-a"></div>    </a>
@@ -78,14 +100,12 @@
         <a href="index.html"><div class="home-link-a"></div></a>
         <a href="#about-id"><div class="about-link-a"></div></a>
         <picture>
-          <source media="(min-width: 1450px)" srcset="img/footer-transparent.png">
-          <source media="(min-width: 1024px)" srcset="img/footer-transparent.png">
+          <source media="(min-width: 1100px)" srcset="img/footer-transparent.png">
+          <source media="(min-width: 320px)" srcset="img/footer-transparent-m.png">
           <img src="img/footer-transparent.png" style="width: 100vw;">
         </picture>    
       </div>
     </div>
-    <!-- <div class="main-m">
-    </div> -->
   </body>
 </html>
 <!-- <script src="js/main.js?4"></script> -->
