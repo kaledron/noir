@@ -70,7 +70,11 @@ video::-webkit-media-controls-start-playback-button {
     position: relative;
 }
 
-.container { position:relative; }
+.container { 
+    position:relative; 
+    /* line-height: 0; */
+}
+
 .container video {
     position:relative;
     z-index:0;
@@ -116,7 +120,7 @@ video::-webkit-media-controls-start-playback-button {
 .overlay .main-title {
     float: left;
     color: white;
-    padding-top: 5.8vw;
+    padding-top: 5.5vw;
     padding-left: 10.4vw;
     font-size: 3.442vw;
     width: 100vw;
@@ -126,7 +130,7 @@ video::-webkit-media-controls-start-playback-button {
 .overlay .sub-title {
     float: left;
     color: white;
-    padding-top: 1.82vh;
+    padding-top: 0.9vw;
     padding-left: 10.4vw;
     font-family: 'Poppins Regular';
     font-size: 1.04vw;
@@ -164,7 +168,7 @@ video::-webkit-media-controls-start-playback-button {
     opacity: 0.9;
 }
 
-.one-third {
+.overlay .shapes .one-third {
     float: left;
     width: 26.864vw;
 }
@@ -175,7 +179,7 @@ video::-webkit-media-controls-start-playback-button {
 
 .overlay .shapes {
     float: left;
-    padding-top: 11.36vw;
+    padding-top: 11.56vw;
     padding-left: 10.4vw;
     width: 100vw;
 }
@@ -191,8 +195,8 @@ video::-webkit-media-controls-start-playback-button {
 
 .overlay .shapes .message {
     float: left;
+    padding-top: 0.64vw;
     padding-left: 1.4vw;
-    padding-top: 0.8vw;
     font-size: 1.1vw;
     font-family: 'Poppins Regular', sans-serif;
     color: white;
@@ -200,36 +204,41 @@ video::-webkit-media-controls-start-playback-button {
 
 .middle-content {
     float: left;
-    padding-top: 12.29vh;
+    padding-top: 5.8vw;
     padding-left: 10.4vw;
-    padding-bottom: 13vh;
+    padding-right: 10.4vw;
+    padding-bottom: 6.34vw;
     width: 100vw;
 }
 
-.middle-content .title {
-    padding-bottom: 2.62vh;
-    color: #3398DB;
-    font-family: 'Poppins Bold', sans-serif;
-    font-size: 0.838vw;
+.middle-content .one-third {
+    float: left;
+    width: 26.4vw;
 }
 
-.middle-content .text {
+.middle-content .one-third .title {
+    padding-bottom: 1.2vw;
+    color: #3398DB;
+    font-family: 'Poppins Bold', sans-serif;
+    font-size: 1.2vw;
+}
+
+.middle-content .one-third .text {
     color: rgb(175, 172, 172);
     font-family: 'Poppins Regular', sans-serif;
-    font-size: 0.95vw;
+    font-size: 1.05vw;
+    text-justify: auto;
+    padding-right: 5vw;
 }
 
 .invite-section {
     float: left;
-    width: 100%;
-    
+    width: 100vw;
     background-image: url("../img/noir-invite.png");
-
     height: 41vw;
-
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     position: relative;
 }
 
@@ -249,19 +258,6 @@ video::-webkit-media-controls-start-playback-button {
 .invite-form form {
     padding-top: 1vw;
     padding-left: 10.4vw;
-}
-
-::placeholder { 
-    color: #B9B9B9;
-    opacity: 1; 
-}
-  
-:-ms-input-placeholder { 
-    color: #B9B9B9;
-}
-  
-::-ms-input-placeholder { 
-    color: #B9B9B9;
 }
 
 .invite-form form input {
@@ -315,6 +311,19 @@ video::-webkit-media-controls-start-playback-button {
 
 .invite-form form button:hover {
     opacity: 0.9;
+}
+
+::placeholder { 
+    color: #B9B9B9;
+    opacity: 1; 
+}
+  
+:-ms-input-placeholder { 
+    color: #B9B9B9;
+}
+  
+::-ms-input-placeholder { 
+    color: #B9B9B9;
 }
 
 .about .home-link-m {
@@ -380,11 +389,6 @@ canvas {
     margin-left: 10.4vw;
     width: 14.6vw;
 }
-
-/* .footer {
-    position:relative;
-    bottom:0;
-} */
 
 .footer .home-link {
     margin-top: 4.8vw;

@@ -1,4 +1,205 @@
-@media only screen and (width: 1366px) {
+@media only screen and (min-width: 320px) and (max-width: 1080px) {
+
+    .container video {
+        position:relative;
+        z-index:0;
+    }
+
+    .overlay .logo {
+        padding-top: 3.2vw;
+        padding-left: 3.82vw;
+    }
+    
+    .overlay .header .logo picture img {
+        width: 17.8vw;
+        height: 8.9vw;
+    }
+    
+    .overlay .menu {
+        padding-top: 4vw;
+        padding-left: 62vw;
+        font-size: 1.8vw;
+        letter-spacing: 0.012vw;
+    }
+
+    .overlay .main-title {
+        padding-top: 6.2vw;
+        padding-left: 8vw;
+        font-size: 3.95vw;
+        letter-spacing: normal;
+    }
+
+    .overlay .sub-title {
+        padding-top: 6vw;
+        padding-left: 8vw;
+        font-family: 'Poppins Regular';
+        font-size: 2.7vw;
+        font-weight: 700;
+        letter-spacing: normal;
+    }
+    
+    .overlay .invite {
+        display: none;
+        padding-top: 6vw;
+        padding-left: 8vw;
+    }
+    
+    .overlay .invite button {
+        margin-top: -0.12vw;
+        width: 17.66vw;
+        height: 3.4vw;
+        font-size: 1.2vw;
+        letter-spacing: normal;
+    }
+
+    .overlay .shapes {
+        padding-top: 19vw;
+        padding-left: 8vw;
+    }
+
+    .overlay .shapes .one-third {
+        float: left;
+        width: 31vw;
+    }
+    
+    .overlay .shapes .title {
+        padding-top: 0.6vw;
+        font-size: 1.35vw;
+        width: 16vw;
+    }
+    
+    .overlay .shapes .message {
+        margin-top: -4.1vw;
+        padding-left: 5.6vw;
+        font-size: 1.6vw;
+        letter-spacing: normal;
+    }
+
+    .middle-content {
+        padding-top: 6.6vw;
+        padding-left: 8vw;
+        padding-right: 8vw;
+        padding-bottom: 7.8vw;
+    }
+
+    .middle-content .one-third {
+        float: left;
+        padding-right: 4vw;
+        width: 28.3vw;
+    }
+    
+    .middle-content .one-third .title {
+        padding-bottom: 2.8vw;
+        font-size: 2.5vw;
+    }
+
+    .middle-content .one-third .text {
+        font-size: 2vw;
+    }
+
+    .invite-section {
+        background-image: url("../img/noir-invite-m.png");
+        height: 45vw;
+    }
+
+    .invite-form {
+        margin-top: 2.4vw;
+    }
+
+    .invite-form .title {
+        padding-top: 1.5vw;
+        padding-left: 3.4vw;
+        font-size: 3.77vw;
+    }
+
+    .invite-form form {
+        margin-top: 0vw;
+        padding-top: 0vw;
+        padding-left: 3.4vw;
+    }
+
+    .invite-form form input {
+        padding-left: 1.6vw;
+        margin-right: 0.4vw;
+        margin-bottom: -0.5vw;
+        width: 21.2vw;
+        height: 5vw;
+        border-radius: 0.25vw;
+        font-size: 2.2vw;
+        letter-spacing: 0.025vw;
+        text-shadow: 0.025vw 0.025vw #B9B9B9;
+    }
+
+    .invite-form form textarea {
+        width: 45.4vw;
+        height: 9vw;
+        margin-bottom: 0vw;
+        border-radius: 0.25vw;
+        font-size: 2.3vw;
+        letter-spacing: 0.025vw;
+        text-shadow: 0.025vw 0.025vw #B9B9B9;
+        padding-top: 1.29vw;
+        margin-top: 2vw;
+        padding-left: 1.6vw;
+    }
+
+    .invite-form form button {
+        width: 47vw;
+        height: 3.48vw;
+        margin-top: -2.4vw;
+        padding-top: 0vw;
+        border-radius: 0.25vw;
+        font-size: 1.4vw;
+        letter-spacing: 0.15vw;
+        text-shadow: 0.25vw;
+    }
+
+    .footer .home-link {
+        margin-top: 5.4vw;
+        margin-left: 45vw;
+        width: 7vw;
+        height: 1.2vh;
+        position: absolute;
+    }
+    
+    .footer .about-link {
+        margin-top: 5.4vw;
+        margin-left: 55.4vw;
+        width: 6.8vw;
+        height: 1.2vh;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1900px) {
+    .middle-content .one-third .title {
+        font-size: 1.32vw;
+    }
+
+    .middle-content .one-third .text {
+        font-size: 1.085vw;
+    }
+
+}
+
+/*
+@media only screen and (min-width: 730px) and (max-width: 1081px) {
+     .overlay .main-title {
+        padding-top: 5vw;
+        padding-left: 10.4vw;
+        font-size: 3.442vw;
+    }
+
+    .overlay .invite button {
+        padding-top: 0.07vw;
+        font-size: 0.844vw;
+        letter-spacing: 0.05vw;
+    }
+
+    .overlay .shapes .message {
+        margin-top: -1.25vw;
+    } */
+
     /* .eco .hives-a {
         margin-top: 27vh;
     }
@@ -51,8 +252,6 @@
         width: 3.4vw;
         height: 2vh;
         position: absolute;
-    } */
+    } 
 }
-
-@media only screen and (max-width: 1080px) {
-}
+*/
