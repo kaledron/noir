@@ -23,27 +23,28 @@
     }
 
     .overlay .about-main-title {
-        padding-top: 3vw;
-        padding-left: 8.6vw;
+        padding-top: 7vw;
+        padding-left: 8.3vw;
         font-size: 4vw; 
     }
     
     .overlay .about-main-text {
-        padding-top: 1vw;
-        padding-left: 8.6vw;
-        font-size: 2.4vw; 
-        width: 50vw;
+        padding-top: 3.5vw;
+        padding-left: 8.3vw;
+        font-size: 2.42vw; 
+        width: 48vw;
     }
     
     .overlay .about-main-message {
-        padding-top: 6vw;
-        padding-left: 8.6vw;
-        font-size: 2.2vw; 
-        letter-spacing: 0.35vw;
+        padding-top: 9.5vw;
+        padding-left: 8.3vw;
+        font-size: 2.42vw; 
+        font-weight: bolder;
+        letter-spacing: 0.2vw;
     }
     
     .overlay .main-title {
-        padding-top: 6.2vw;
+        padding-top: 6.5vw;
         padding-left: 8vw;
         font-size: 3.95vw;
         letter-spacing: normal;
@@ -174,6 +175,38 @@
         text-shadow: 0.25vw;
     }
 
+    .eco .hives-a ,
+    .eco .grow-a ,
+    .eco .currency-a ,
+    .eco .ventures-a {
+        height: 5.4vw;
+        position: absolute;
+    }
+
+    .eco .hives-a {
+        margin-top: 18.4vw;
+        margin-left: 10vw;
+        width: 15.6vw;
+    }
+    
+    .eco .grow-a {
+        margin-top: 32.2vw;
+        margin-left: 10vw;
+        width: 15.7vw;
+    }
+    
+    .eco .currency-a {
+        margin-top: 45.8vw;
+        margin-left: 10vw;
+        width: 36.8vw;
+    }
+    
+    .eco .ventures-a {
+        margin-top: 66.2vw;
+        margin-left: 10vw;
+        width: 29vw;
+    }
+
     .footer .home-link {
         margin-top: 5.4vw;
         margin-left: 45vw;
@@ -188,6 +221,18 @@
         width: 6.8vw;
         height: 1.2vh;
         position: absolute;
+    }
+
+    .footer .home-link-a {
+        margin-top: 4.7vw;
+        margin-left: 45vw;
+        width: 7.4vw;
+    }
+
+    .footer .about-link-a {
+        margin-top: 4.7vw;
+        margin-left: 55vw;
+        width: 7vw;
     }
 }
 
