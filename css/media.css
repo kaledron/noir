@@ -179,32 +179,32 @@
     .eco .grow-a ,
     .eco .currency-a ,
     .eco .ventures-a {
-        height: 5.4vw;
+        height: 6.3vw;
         position: absolute;
     }
 
     .eco .hives-a {
-        margin-top: 18.4vw;
-        margin-left: 10vw;
-        width: 15.6vw;
+        margin-top: 24vw;
+        margin-left: 8.3vw;
+        width: 17.6vw;
     }
     
     .eco .grow-a {
-        margin-top: 32.2vw;
-        margin-left: 10vw;
-        width: 15.7vw;
+        margin-top: 39.2vw;
+        margin-left: 8.3vw;
+        width: 17.8vw;
     }
     
     .eco .currency-a {
-        margin-top: 45.8vw;
-        margin-left: 10vw;
-        width: 36.8vw;
+        margin-top: 54.2vw;
+        margin-left: 8.3vw;
+        width: 40.6vw;
     }
     
     .eco .ventures-a {
-        margin-top: 66.2vw;
-        margin-left: 10vw;
-        width: 29vw;
+        margin-top: 76.6vw;
+        margin-left: 8.3vw;
+        width: 32.6vw;
     }
 
     .footer .home-link {
