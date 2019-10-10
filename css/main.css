@@ -447,3 +447,7 @@ canvas {
     height: 2vh;
     position: absolute;
 }
+
+.email {
+    display: none;
+}

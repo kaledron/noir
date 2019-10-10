@@ -98,16 +98,17 @@
       <div id="invites" class="invite-section">
         <div class="invite-form">
           <div class="title">Become yourself with us</div>
-          <form action="index.html" method="GET">
-            <input type="text" id="firstname" name="firstname" placeholder="First Name" required />
-            <input type="text" id="lastname" name="lastname" placeholder="Last Name" required /> <br />
-            <input type="email" id="email" name="email" placeholder="Email" required />
-            <input type="tel" id="phone" name="phone" placeholder="Phone" required /> <br />
-            <textarea id="questions" name="questions" placeholder="Any questions?"></textarea> <br />
-            <button type="submit" id="submit" name="submit">B E &nbsp;&nbsp;B E T T E R</button>
+          <form id="bebetter" onsubmit="sendEmail(); return false;">
+            <input  type="text"   id="firstname" name="firstname" placeholder="First Name" required />
+            <input  type="text"   id="lastname"  name="lastname"  placeholder="Last Name"  required /> <br />
+            <input  type="email"  id="email"     name="email"     placeholder="Email"      required />
+            <input  type="tel"    id="phone"     name="phone"     placeholder="Phone"      required /> <br />
+            <textarea             id="questions" name="questions" placeholder="Any questions?"></textarea> <br />
+            <button type="submit" id="submit"    name="submit">B E &nbsp;&nbsp;B E T T E R</button>
           </form>
         </div>
       </div>
+      <div id="result" class="email"></div>
       <div class="footer">
         <a href="#home"><div class="home-link"></div></a>
         <a href="about.html"><div class="about-link"></div></a>
